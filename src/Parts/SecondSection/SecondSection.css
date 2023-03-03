@@ -1,0 +1,69 @@
+.SecondSection-container {
+  width: 100%;
+  height: 500px;
+  background-color: #002f56;
+}
+.SecondSection-main-container {
+  margin-left: 110px;
+  margin-right: 110px;
+  width: 1366px;
+  margin-left: 110px;
+  margin-right: 110px;
+  width: 1366px;
+  margin-top: 50px;
+  display: inline-block;
+}
+.second-section-content-container {
+  display: flex;
+}
+.member-container {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+.secondsection-content-box {
+  width: 50%;
+}
+.president-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+p {
+  color: white;
+}
+.member-image {
+  width: 120px;
+  height: 120px;
+}
+.second-section-about {
+  width: 50%;
+}
+.member-name {
+  font-size: 20px;
+  height: 10px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 450px) {
+  .second-section-about {
+    display: none;
+  }
+  .SecondSection-main-container {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .member-container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .SecondSection-container {
+    height: 100%;
+  }
+  .member-image {
+    width: 160px;
+    height: 150px;
+  }
+}
